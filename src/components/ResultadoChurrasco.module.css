@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  background-color: #fdfdfd;
+  border-radius: 15px;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.resultText {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.resetButton {
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  border: none;
+  background-color: #c59125;
+  color: #fff;
+  border-radius: 15px;
+  width: 150px;
+}
+
+.resetButton:hover {
+  background-color: #d3971f;
+}
